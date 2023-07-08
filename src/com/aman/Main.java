@@ -4,8 +4,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        AdventureGame game = new AdventureGame();
-        game.play("road");
+        String myLocations= """
+                lake, on the edge,E:ocean,W:forest,S:cliff
+                ocean,Wonderful view,E:lake ,W:Well
+                """;
+
+
+
+        AdventureGame game = new AdventureGame(myLocations);
+        game.play("lake");
 
         Scanner scanner=new Scanner(System.in);
         while (true){
