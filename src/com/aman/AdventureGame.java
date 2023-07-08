@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.*;
 
+//using Map and HashMap
 public class AdventureGame {
     private static final String GAME_LOCATIONS = """
             road, at the end of the road,W: well house ,S:valley ,N:forest 
